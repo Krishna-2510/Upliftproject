@@ -1,0 +1,76 @@
+:root{
+    --base:rgb(146, 78, 255);
+}
+body {
+    background-image: url('woodback.jpg');
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar ul {
+    margin-left: 500px;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 5px 45px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+    transition: all;
+}
+
+.navbar li a:hover,li a.active{
+    transition-duration:1s ;
+    color:var(--base);
+    border-bottom: 2px solid white;    
+}
+h2 {
+    float: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Yellowtail', cursive;
+    margin: 17px 73px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+.container{
+    margin:60px 0;
+    padding:0 80px;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    color:var(--base);
+    text-shadow: 7px 7px 2px rgb(0, 0, 0);
+}
+.me{
+    display: flex;
+    align-items: center;
+}
+.education{
+    display: flex;
+    align-items: center;
+}
+#puppy{
+    height: 110px;
+    width: 110px;
+    border-radius: 50px;
+}
+#edu{
+    height: 130px;
+    width: 130px;
+    border-radius: 80px;
+    padding: 20px 20px;
+}

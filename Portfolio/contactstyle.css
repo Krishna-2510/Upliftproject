@@ -1,0 +1,109 @@
+
+        :root{
+            --base:rgb(146, 78, 255);
+        }
+        body{
+            background-image: url('woodback.jpg');
+        }
+        .navbar {
+            display: block;
+            height: 67px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            margin-left: 700px;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 5px 50px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            font-family: 'Staatliches', cursive;
+            transition: all;
+        }
+
+        .navbar li a:hover {
+            color: var(--base);
+            border-bottom: 2px solid white;
+            transition-duration: 1s;
+        }
+        h2 {
+            float: left;
+            color: rgb(255, 255, 255);
+            font-family: 'Yellowtail', cursive;
+            margin: 17px 73px;
+            border: 2px solid white;
+            border-radius: 20px;
+            width: 100px;
+            text-align: center;
+        }
+        .container{
+            display:flex;
+        }
+        .item{
+            text-align: center;
+        }
+        .item input{
+            width: 286px;
+            height: 30px;
+            margin: 8px 14px;
+            text-align: center;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+        .form{
+            border: 2px solid white;
+            border-radius: 20px;
+            margin: 67px -186px;
+            width: 342px;
+            height: 345px;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        .item button{
+            width: 286px;
+            height: 36px;
+            margin: 32px auto;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            background-color: var(--base);
+            font-family: 'Staatliches', cursive;
+            font-size: 17px;
+            transition: all;
+        }
+        .item button:hover{
+            color: var(--base);
+            background-color:black;
+            border: 2px solid rgb(255, 255, 255);
+            transition-duration: 1s;
+        }
+        .info{
+            color: white;
+            margin: 97px 330px;
+        }
+        i{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+        #insta i:hover{
+            color: rgb(255, 57, 123);
+        }
+        #linked i:hover{
+            color: rgb(57, 166, 255);
+        }
+        #whatsapp:hover{
+            color: rgb(64, 253, 105);
+        }
+        #email:hover{
+            color: rgb(255, 251, 0);
+        }
